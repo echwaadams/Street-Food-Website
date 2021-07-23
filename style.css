@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container
+{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+svg
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+}
+header
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
