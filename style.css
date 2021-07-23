@@ -8,8 +8,11 @@
 {
     background-color: lightgrey;
     width: 100%;
-    height: 100%;
+    min-height: 100vh;
     margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
 }
 svg
 {
@@ -17,14 +20,143 @@ svg
     align-items: center;
     display: flex;
     text-align: center;
+    margin-left: 620px;
 }
 header
 {
     display: flex;
+    top: 0;
+    left: 0;
+    padding: 20px 10px;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 24px;
     font-family: 'Poppins';
     font-style: normal;
+}
+.nav-link
+{
+    display: flex;
+    position: relative;
+    left: 20px;
+}
+.nav-link ul 
+{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-link ul li
+{
+    list-style: none;
+}
+.nav-link ul li a
+{
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    margin-left: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+.nav-link ul li a:hover
+{
+    color: blueviolet;
+    transform: translateY(-2px);
+}
+.content
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+.content .textBox
+{
+    position: relative;
+    max-width: 600px;
+}
+.content .textBox h2
+{
+    color: #6CB840;
+    font-size: 2em;
+    line-height: 1.4em;
+    font-weight: 500;
+
+}
+.content .textBox h2 span
+{
+    color: #EAAB1B;
+}
+.content .textBox h3
+{
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1em;
+    font-weight: 600;
+}
+.content .textBox p
+{
+    color: black;
+    font-family: 'Poppins';
+}
+.content .textBox a
+{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #6cb840;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+.content .imgBox
+{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 160px;
+    margin-top: 50px;
+}
+.thumb
+{
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(5%);
+    display: flex;
+}
+.thumb li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.thumb li:hover
+{
+    transform: translateY(-15px);
+}
+.thumb li img
+{
+    max-width: 60px;
+}
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #649549;
+    clip-path: circle(600px at right 500px);
 }
