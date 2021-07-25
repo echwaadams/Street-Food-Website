@@ -91,7 +91,13 @@ header
 .content .textBox
 {
     position: relative;
-    max-width: 600px;
+    box-sizing: content-box;
+    margin: 160px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 60%;
 }
 .content .textBox h2
 {
@@ -99,6 +105,9 @@ header
     font-size: 2em;
     line-height: 1.4em;
     font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
 
 }
 .content .textBox h2 span
@@ -111,11 +120,16 @@ header
     font-size: 1.2em;
     line-height: 1em;
     font-weight: 600;
+    text-align: start;
 }
 .content .textBox p
 {
     color: black;
     font-family: 'Poppins';
+    text-align: start;
+    height: 80%;
+    width: 80%;
+   
 }
 .content .textBox a
 {
@@ -128,6 +142,10 @@ header
     letter-spacing: 1px;
     text-decoration: none;
     color: #fff;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+    margin-left: -480px;
 }
 .content .imgBox
 {
@@ -143,7 +161,7 @@ header
 {
     position: absolute;
     left: 50%;
-    top: 20px;
+    top: 240px;
     transform: translateX(5%);
     display: flex;
 }
@@ -161,7 +179,7 @@ header
 }
 .thumb li img
 {
-    max-width: 60px;
+    max-width: 50px;
 }
 .circle
 {
@@ -193,11 +211,15 @@ header
 }
 .about p
 {
-    justify-content: center;
+    box-sizing: content-box;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 20px auto;
     text-align: center;
     align-items: center;
-    margin: 5px auto;
-    position: relative;
+    justify-content: center;
+    height: 30%;
+    width: 30%;
 }
 .about img 
 {
@@ -314,28 +336,41 @@ header
    margin-right: 500px;
    float: right;
 }
-.special h3
+.float 
 {
-    text-transform: uppercase;
-    clear: both;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    box-sizing: content-box;
+
+}
+.float h3
+{
     color: #6CB840;
-    font-weight: 700;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
 }
-.special h4
+.float h4
 {
-    padding: 15px;
+    padding: 10px;
 }
-.special p
+.pag p
 {
     box-sizing: content-box;
     padding-right: 25px;
     padding-left: 25px;
-    margin: 0 auto;
+    margin: 10px auto;
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 80%;
-    width: 80%;
+    height: 30%;
+    width: 30%;
 }
 
 /*--- contact page styling ---*/
@@ -375,7 +410,7 @@ header
 {
     color: #6CB840;
 }
-.cont p
+.page p
 {
     box-sizing: content-box;
     padding-right: 25px;
@@ -384,14 +419,16 @@ header
     text-align: center;
     align-items: center;
     justify-content: center;
-    height: 80%;
-    width: 80%;
+    height: 30%;
+    width: 30%;
 }
 input
 {
     border-radius: 20px;
-    border: 2px solid black;
-    padding: 5px;
+    border: 2px  ;
+    padding: 10px;
+    margin: auto;
+    width: 28%;
 }
 .cont a
 {
@@ -438,7 +475,7 @@ footer
     font-size: 16px;
     font-weight: 100;
     padding: 20px;
-    margin-right: 180px;
+    margin-right: 480px;
     margin-left: 20px;
 }
 .fol
@@ -457,7 +494,7 @@ footer
 }
 .fol a
 {
-    float: right;
+    float: none;
     padding-top: -30px;
     margin-left: 400px;
     margin-top: 300px;
