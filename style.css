@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body
+{
+    font-family: 'Poppins';
+}
 .container
 {
     background-color: lightgrey;
@@ -76,6 +80,7 @@ header
     justify-content: space-between;
     align-items: center;
     padding: 60px;
+    margin-bottom: 200px;
 }
 .content .textBox
 {
@@ -158,5 +163,214 @@ header
     width: 100%;
     height: 100%;
     background: #649549;
-    clip-path: circle(600px at right 500px);
+    clip-path: circle( 600px at right -100px);
+}
+.about 
+{
+    padding: 20px;
+    margin: auto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    width: 100%;
+    border: 2px solid white;
+}
+.about h2
+{
+    justify-content: center;
+    color: #c28a06;
+    text-align: center;
+}
+.about p
+{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 5px auto;
+    position: relative;
+}
+img 
+{
+    float: left;
+}
+.ourmenu
+{
+    background-color: rgb(20, 218, 201);
+    display: grid;
+    
+}
+.ourmenu h2
+{
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    align-items: center;
+    font-weight: 600;
+}
+.ourmenu h2 span
+{
+    color: #6CB840;
+}
+.box 
+{
+    display: flex;
+    background: white;
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 0px 0px 40px 0px;
+    margin: 0 300px;
+    padding-bottom: 30px;
+}
+.box img
+{
+    float: left;
+    top: 0;
+    left: 0;
+    bottom: 5px;
+    right: 5px;
+    margin-left: 1px;
+
+}
+.box h4
+{
+    display: flex;
+    position: relative;
+    justify-content: start;
+    align-items: flex-start;
+}
+.box p
+{
+    text-align: left;
+}
+.happyhour
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #C9ECB5;
+    box-sizing: border-box;
+    border-radius: 1px solid #C9ECB5;
+}
+.happyhour h2
+{
+    font-weight: 600;
+    padding: 30px;
+    text-transform: capitalize;
+    font-family: 'Poppins';
+}
+.happyhour h2 span
+{
+    color: #6CB840;
+}
+.one 
+{
+    margin-top: -180px;
+    margin-right: 500px;
+    
+}
+.two
+{
+   position: relative; 
+   margin-top: -360px;
+   margin-right: 660px;
+   float: right;
+}
+.special h3
+{
+    text-transform: uppercase;
+    clear: both;
+    color: #6CB840;
+    font-weight: 700;
+}
+.special h4
+{
+    padding: 15px;
+}
+.special p
+{
+    box-sizing: content-box;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+.contact
+{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background: #FFD77C;
+    box-sizing: border-box;
+    border-radius: 1px solid #C9ECB5;
+}
+.cont
+{
+    position: relative;
+    box-sizing: content-box;
+    padding: 10px;
+    margin: 2px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cont h3
+{
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+.cont h3 span
+{
+    color: #6CB840;
+}
+.cont p
+{
+    box-sizing: content-box;
+    padding-right: 25px;
+    padding-left: 25px;
+    margin: 70px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 80%;
+}
+input
+{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 5px;
+}
+.cont a
+{
+    display: inline-block;
+    background-color: #6CB840;
+    margin-top: 20px;
+    padding: 8px 20px;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
+}
+/* -- footer styling ---*/
+footer
+{
+    display: flex;
+    background-color: #C9ECB5;
 }
