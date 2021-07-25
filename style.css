@@ -26,6 +26,8 @@ svg
     text-align: center;
     margin-left: 620px;
 }
+
+/*---header styling---*/
 header
 {
     display: flex;
@@ -40,6 +42,8 @@ header
     font-family: 'Poppins';
     font-style: normal;
 }
+
+/*----- navigation bar styling ---*/
 .nav-link
 {
     display: flex;
@@ -72,6 +76,8 @@ header
     color: blueviolet;
     transform: translateY(-2px);
 }
+
+/*--- homepage styling ---*/
 .content
 {
     position: relative;
@@ -131,6 +137,8 @@ header
     padding-right: 160px;
     margin-top: 50px;
 }
+
+/*--- eclipse styling ----*/
 .thumb
 {
     position: absolute;
@@ -165,6 +173,8 @@ header
     background: #649549;
     clip-path: circle( 600px at right -100px);
 }
+
+/*--- About page styling ----*/
 .about 
 {
     padding: 20px;
@@ -189,24 +199,35 @@ header
     margin: 5px auto;
     position: relative;
 }
-img 
+.about img 
 {
     float: left;
+    margin-right: 680px;
 }
+
+
+/*--- menu page styling ----*/
 .ourmenu
 {
     background-color: rgb(20, 218, 201);
+    position: relative;
+    width: 100%;
+    height: 100%;
     display: grid;
-    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: ' box-image box-image'
+    'box-image box-image ' 'box-image box-image';
 }
 .ourmenu h2
 {
     justify-content: center;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     margin-top: auto;
     align-items: center;
     font-weight: 600;
+    position: relative;
 }
 .ourmenu h2 span
 {
@@ -214,35 +235,49 @@ img
 }
 .box 
 {
-    display: flex;
     background: white;
     box-sizing: border-box;
     border: 1px solid white;
     border-radius: 0px 0px 40px 0px;
-    margin: 0 300px;
-    padding-bottom: 30px;
+    margin: auto  500px;
+    padding-bottom: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 380px;
+    margin-right: 100px;
+    margin-top: 150px;
+    margin-bottom: 10px;
+    
+    
 }
-.box img
+.box-image
 {
-    float: left;
-    top: 0;
-    left: 0;
-    bottom: 5px;
-    right: 5px;
-    margin-left: 1px;
-
+    position: relative;
+    margin-top: -280px;
+    margin-left: -20px;
+    width: 200px;
+    height: 200px;
 }
 .box h4
 {
-    display: flex;
-    position: relative;
-    justify-content: start;
-    align-items: flex-start;
+    position: absolute;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
 }
 .box p
 {
-    text-align: left;
+    color: black;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Poppins';
+    border: 2px;
+    position: relative;
+    padding: 30px;
 }
+
+/*--- happyhour page styling --*/
 .happyhour
 {
     position: relative;
@@ -276,7 +311,7 @@ img
 {
    position: relative; 
    margin-top: -360px;
-   margin-right: 660px;
+   margin-right: 500px;
    float: right;
 }
 .special h3
@@ -302,6 +337,8 @@ img
     height: 80%;
     width: 80%;
 }
+
+/*--- contact page styling ---*/
 .contact
 {
     position: relative;
@@ -368,9 +405,68 @@ input
     text-decoration: none;
     color: #fff;
 }
+
+
+
 /* -- footer styling ---*/
 footer
 {
+    position: relative;
     display: flex;
+    flex-direction: row;
     background-color: #C9ECB5;
+    padding: 40px;
+}
+.fot
+{
+    position: relative;
+    font-family: 'Poppins';
+    justify-content: center;
+    text-align: center;
+    align-items: flex-start;
+}
+#het
+{
+    padding: 20px;
+}
+#het p
+{
+    padding-top: -12px;
+}
+.sept
+{
+    font-size: 16px;
+    font-weight: 100;
+    padding: 20px;
+    margin-right: 180px;
+    margin-left: 20px;
+}
+.fol
+{
+    padding: 40px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+.fol h5
+{
+    font-size: 16px;
+}
+.fol p
+{
+    font-weight: 100;
+}
+.fol a
+{
+    float: right;
+    padding-top: -30px;
+    margin-left: 400px;
+    margin-top: 300px;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #6cb840;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #fff;
 }
