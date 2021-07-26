@@ -21,7 +21,7 @@ https://github.com/echwaadams/Street-Food-Website
 HTML
 CSS
 ## Support and contact details
-Contributions, issues, and feature requests are welcome! adams.echwa@student.moringaschool.com
+Contributions, issues, and feature requests are welcome! contact: adams.echwa@student.moringaschool.com
 
 ## License
 Copyright (c) 2021 Adams Echwa
