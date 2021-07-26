@@ -12,35 +12,38 @@ body
 {
     background-color: lightgrey;
     width: 100%;
-    min-height: 100vh;
+    height: 700px;
+    position: relative;
     margin: auto;
     padding: 10px;
     justify-content: space-between;
     align-items: center;
 }
-svg
+.logo
 {
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    text-align: center;
-    margin-left: 620px;
+    width: 400px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    content: '';
+    margin-left: -150px;
 }
 
 /*---header styling---*/
-header
+.logo header
 {
-    display: flex;
+    width: 300px;
+    height: 300px;
     top: 0;
-    left: 0;
     padding: 20px 10px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    margin-left: -240px;
+    position: relative;
+    content: '';
+    left: 50%;
+    font-weight: 700;
     font-size: 24px;
     font-family: 'Poppins';
-    font-style: normal;
 }
 
 /*----- navigation bar styling ---*/
@@ -61,6 +64,23 @@ header
 .nav-link ul li
 {
     list-style: none;
+    float: none;
+}
+.nav-link ul li:nth-child(1)
+{
+    float: left;
+}
+.nav-link ul li:nth-child(2)
+{
+    float: left;
+}
+.nav-link ul li:nth-child(3)
+{
+    float: left;
+}
+.nav-link ul li:nth-child(4)
+{
+    float: left;
 }
 .nav-link ul li a
 {
