@@ -9,6 +9,7 @@ This is a Landing Page for a  Street food restaurant website .
 * Well commented coding
 * Easy to use
 * It's free
+* It's open source
 * Built with HTML & CSS
 * A contact form that sends an email for easy reference
 
