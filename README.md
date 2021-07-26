@@ -18,9 +18,7 @@ HTML
 CSS
 ## Known Bugs
 https://github.com/echwaadams/Street-Food-Website
-## Technologies Used
-HTML
-CSS
+
 ## Support and contact details
 Contributions, issues, and feature requests are welcome! 
 contact: adams.echwa@student.moringaschool.com
